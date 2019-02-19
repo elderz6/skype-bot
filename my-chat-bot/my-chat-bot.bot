@@ -12,13 +12,13 @@
         },
         {
             "type": "endpoint",
-            "endpoint": "https://skype-bot-teste.herokuapp.com/",
+            "endpoint": "https://skype-bot-teste.herokuapp.com/orchestrator",
             "name": "production",
             "id": "104"
         }
     ],
     "padlock": "",
     "version": "2.0",
-    "overrides": null,
-    "path": "C:\\Users\\Padrao\\Desktop\\skypeApi\\nodeBackend\\my-chat-bot\\my-chat-bot.bot"
+    "path": "C:\\Users\\Padrao\\Desktop\\skypeApi\\nodeBackend\\my-chat-bot\\my-chat-bot.bot",
+    "overrides": null
 }

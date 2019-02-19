@@ -19,6 +19,7 @@ class MyBot {
                     await turnContext.sendActivity(res.data.output.generic[0].text);
                 })
                 .catch((err) => {
+                    console.log('error during request');
                     console.log(err);
                 });
         } else {
