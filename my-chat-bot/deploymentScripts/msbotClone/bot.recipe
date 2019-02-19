@@ -11,7 +11,7 @@
             "type": "endpoint",
             "id": "2",
             "name": "production",
-            "url": "https://deploy-skypeBot-test.mybluemix.net"
+            "url": "https://skype-bot-teste.herokuapp.com/"
         },
         {
             "type": "abs",

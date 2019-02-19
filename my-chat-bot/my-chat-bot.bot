@@ -1,15 +1,24 @@
 {
     "name": "my-chat-bot",
+    "description": "",
     "services": [
         {
             "type": "endpoint",
-            "name": "development",
-            "endpoint": "http://localhost:8080/orchestrator",
             "appId": "",
             "appPassword": "",
-            "id": "1"
+            "endpoint": "http://localhost:8080/orchestrator",
+            "id": "1",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "https://skype-bot-teste.herokuapp.com/",
+            "name": "production",
+            "id": "104"
         }
     ],
     "padlock": "",
-    "version": "2.0"
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\Padrao\\Desktop\\skypeApi\\nodeBackend\\my-chat-bot\\my-chat-bot.bot"
 }
