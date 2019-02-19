@@ -12,7 +12,7 @@
         },
         {
             "type": "endpoint",
-            "endpoint": "https://skype-bot-teste.herokuapp.com/orchestrator",
+            "endpoint": "https://skype-bot-teste.herokuapp.com/api/messages",
             "name": "production",
             "id": "104"
         }
