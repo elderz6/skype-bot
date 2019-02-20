@@ -19,6 +19,6 @@
     ],
     "padlock": "",
     "version": "2.0",
-    "path": "C:\\Users\\Padrao\\Desktop\\skypeApi\\nodeBackend\\my-chat-bot\\my-chat-bot.bot",
+    "path": "./my-chat-bot.bot",
     "overrides": null
 }
