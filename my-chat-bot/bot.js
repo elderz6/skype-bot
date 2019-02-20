@@ -16,6 +16,7 @@ class MyBot {
                 text: turnContext._activity.text
             })
                 .then(async (res) => {
+                    console.log(res.data.output);
                     await turnContext.sendActivity(res.data.output.generic[0].text);
                 })
                 .catch((err) => {
