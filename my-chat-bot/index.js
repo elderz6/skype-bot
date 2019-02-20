@@ -42,7 +42,7 @@ const BOT_FILE = path.join(__dirname, (process.env.botFilePath || ''));
 // Read bot configuration from .bot file.
 let botConfig;
 try {
-    botConfig = BotConfiguration.loadSync(BOT_FILE, 1234);
+    botConfig = BotConfiguration.loadSync(BOT_FILE, process.env.botFileSecret);
 } catch (err) {
     console.error(`\nError reading bot file. Please ensure you have valid botFilePath and botFileSecret set for your environment.`);
     console.error(`\n - The botFileSecret is available under appsettings for your Azure Bot Service bot.`);
