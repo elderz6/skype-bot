@@ -6,7 +6,7 @@
             "type": "endpoint",
             "appId": "",
             "appPassword": "",
-            "endpoint": "http://localhost:8080/orchestrator",
+            "endpoint": "http://localhost:3978/api/messages",
             "id": "1",
             "name": "development"
         },
