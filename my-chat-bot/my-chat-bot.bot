@@ -4,7 +4,7 @@
     "services": [
         {
             "type": "endpoint",
-            "appId": "5c08318c-b8de-4a8d-b5c1-df02a8285036",
+            "appId": "",
             "appPassword": "",
             "endpoint": "http://localhost:3978/api/messages",
             "id": "1",
@@ -14,11 +14,12 @@
             "type": "endpoint",
             "endpoint": "https://skype-bot-teste.herokuapp.com/api/messages",
             "name": "production",
-            "id": "104"
+            "id": "104",
+            "appId": ""
         }
     ],
     "padlock": "",
     "version": "2.0",
-    "path": "./my-chat-bot.bot",
+    "path": "C:\\Users\\Padrao\\Desktop\\skypeApi\\nodeBackend\\my-chat-bot\\my-chat-bot.bot",
     "overrides": null
 }
