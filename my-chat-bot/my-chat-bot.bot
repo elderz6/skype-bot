@@ -4,18 +4,19 @@
     "services": [
         {
             "type": "endpoint",
-            "appId": "",
-            "appPassword": "",
+            "appId": "5c08318c-b8de-4a8d-b5c1-df02a8285036",
+            "appPassword": "ohOFP173akbhvBZOJ19#;{!",
             "endpoint": "http://localhost:3978/api/messages",
             "id": "1",
             "name": "development"
         },
         {
             "type": "endpoint",
+            "appId": "5c08318c-b8de-4a8d-b5c1-df02a8285036",
+            "appPassword": "ohOFP173akbhvBZOJ19#;{!",
             "endpoint": "https://skype-bot-teste.herokuapp.com/api/messages",
-            "name": "production",
             "id": "104",
-            "appId": ""
+            "name": "production"
         }
     ],
     "padlock": "",
