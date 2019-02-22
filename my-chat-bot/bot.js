@@ -20,8 +20,14 @@ class MyBot {
                 context: this.contexto
             })
                 .then(async (res) => {
-                    await turnContext.sendActivity(res.data.output.generic[0].text);
-                    console.log(res.data.output);
+                    const textLen = res.data.output.text.length;
+                    if (textLen > 1) {
+                        for (var i = 0; i < textLen; i++) {
+                            await turnContext.sendActivity(res.data.output.text[i]);
+                        }
+                    } else {
+                        await turnContext.sendActivity(res.data.output.generic[0].text);
+                    }
                     this.contexto = res.data.context;
                 })
                 .catch((err) => {
